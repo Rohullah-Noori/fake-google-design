@@ -1,0 +1,75 @@
+body{
+    font-size: 12px;
+}
+#container{
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+#container h1{
+    font-size:70px;
+    margin-left: 110px;
+    margin-bottom: 0px;
+}
+input[type="text"]{
+    width: 470px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input[type="text"]:hover{
+    border: 1px solid #aaa;
+}input[type="submit"]{
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    margin-left: 0px;
+    width: 100px;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+}#right{
+    margin-left: 110px;
+}
+small{
+    margin-left: 150px;
+}small a{
+    color:#333;
+    text-decoration: none;
+}small a:hover{
+text-decoration: underline;
+}
+nav#header ul li{
+    float:left;
+display:inline;
+margin-left:10px;
+}
+#header ul li a{
+    margin-top: 0px;
+    text-decoration: none;
+}
+nav#header{
+    margin-top:0px;
+    float:right;
+    margin-bottom:20px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+}nav#header ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}nav#header ul li a:link
+,nav#header ul li a:visited{
+    color: blue;
+}
+#footer ul li {
+display: inline;
+
+}#footer ul li a{
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    margin-top: 250px;
+    float: left;
+    display: inline;
+}#footer ul.right-links{
+    float:right;
+}
+
+
